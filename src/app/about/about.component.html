@@ -1,1 +1,15 @@
-<p>about works!</p>
+<div class="about-me">
+    <div class="heading">
+        <h1 class="title">{{title}}</h1>
+        <p class="intro">{{intro}}</p>
+    </div>
+
+    <div class="education">
+      <h2 class="subtitle">Education</h2>
+      <div class="education" *ngFor="let education of educationArray">
+            <app-education [education]="education"></app-education>
+            <hr/>
+      </div>
+    </div>
+  </div>
+  
