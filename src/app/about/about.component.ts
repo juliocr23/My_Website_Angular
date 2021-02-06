@@ -17,41 +17,53 @@ export class AboutComponent implements OnInit {
   title:string = "About me.";
 
   educationArray:EducationModel[]= [
-    new EducationModel("City University of new York-Hebert H. Lehman College",
-                      "Bachelor of Science - BS, Mathematics and Computer Science",
-                      "2017-2019",
-                      "../../assets/images/lehman.jpeg",
-                      "https://www.lehman.cuny.edu/"),
 
-    new EducationModel("Borough of Manhattan Community College",
-                        "Associate of Science - AS Computer Science",
-                        "2015-2017",
-                        "../../assets/images/bmcc.jpeg",
-                        "https://www.bmcc.cuny.edu/")
+    new EducationModel({collegeName:"City University of new York-Hebert H. Lehman College",
+                        degreeType:"Bachelor of Science - BS, Mathematics and Computer Science",
+                        date:"2017-2019",
+                        file:"../../assets/images/lehman.jpeg",
+                        collegeLink:"https://www.lehman.cuny.edu/"}),
+
+    new EducationModel({collegeName:"Borough of Manhattan Community College",
+                        degreeType:"Associate of Science - AS Computer Science",
+                        date:"2015-2017",
+                        file:"../../assets/images/bmcc.jpeg",
+                        collegeLink:"https://www.bmcc.cuny.edu/"})
   ]
 
 
   experienceArray: ExperienceModel[]  = [
-    new ExperienceModel("Software Engineer",
-                        "Tata Consultancy Services",
-                        "Jul 2020 - Present",
-                        "New York City Metropolitan Area",
-                        "../../assets/images/tcs.jpeg",
-                        "https://www.tcs.com/"),
-    new ExperienceModel("Lead iOS Developer Intern",
-                        "PantsuitProfessionals",
-                        "Jun 2020 - Dec",
-                        "New York City Metropolitan Area",
-                        "../../assets/images/pantsuit.png",
-                        "https://www.pantsuitprofessionals.com/"),
 
-    new ExperienceModel("Supplemental Instructor Leader(SI)",
-                        "Research Foundation of The City University of New York",
-                        "Feb 2018 - May 2019",
-                        "Greater New York City Area",
-                        "../../assets/images/SI.png",
-                        "https://www.rfcuny.org/RFWebsite/")
-  ];
+
+
+    new ExperienceModel({
+      role:"Software Engineer",
+      company:"Tata Consultancy Services",
+      date:"Jul 2020 - Present",
+      city:"New York City Metropolitan Area",
+      file:"../../assets/images/tcs.jpeg",
+      link:"https://www.tcs.com/"
+    }),
+
+
+    new ExperienceModel({
+      role:"Lead iOS Developer Intern",
+      company:"PantsuitProfessionals",
+      date:"Jun 2020 - Dec",
+      city:"New York City Metropolitan Area",
+      file:"../../assets/images/pantsuit.png",
+      link:"https://www.pantsuitprofessionals.com/"
+    }),
+
+    new ExperienceModel({
+      role:"Supplemental Instructor Leader(SI)",
+      company:"Research Foundation of The City University of New York",
+      date:"Feb 2018 - May 2019",
+      city:"Greater New York City Area",
+      file:"../../assets/images/SI.png",
+      link:"https://www.rfcuny.org/RFWebsite/"
+    })
+  ]
 
   constructor() { }
 

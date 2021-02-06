@@ -9,9 +9,11 @@ import { ExperienceModel } from '../model/experience.model';
 })
 export class ExperienceComponent implements OnInit {
 
-  @Input() experience:ExperienceModel;
+  @Input() public experience:ExperienceModel = new ExperienceModel();
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

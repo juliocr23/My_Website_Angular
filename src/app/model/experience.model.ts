@@ -1,5 +1,13 @@
 export class ExperienceModel {
-    constructor(public role:string, public company:string, public date:string, public city:string,
-        public file:string, public link:string) {
+
+    role:string = "";
+    company:string = "";
+    date:string = "";
+    city:string = "";
+    file:string = "";
+    link:string = "";
+
+    public constructor(init?:Partial<ExperienceModel>) {
+        Object.assign(this, init);
     }
 }

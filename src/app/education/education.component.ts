@@ -8,12 +8,10 @@ import { EducationModel } from '../model/education.model';
 })
 export class EducationComponent implements OnInit {
 
-  @Input() public  education: EducationModel;
+  @Input() public  education = new EducationModel();
   
-
   constructor(){
   }
-
  
   ngOnInit(): void {
   }
