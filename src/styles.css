@@ -3,3 +3,7 @@
     font-family: sacramento;
     src: url("./assets/fonts/Sacramento-Regular.ttf") format("opentype");
   }
+
+  body{
+    background-color:whitesmoke;
+  }

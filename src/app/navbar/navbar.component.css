@@ -1,0 +1,16 @@
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #1a252f;
+}
+
+.navbar-brand {
+    font-size:2.1rem;
+}
+
+
+.nav-item {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color:  #1a252f;
+}

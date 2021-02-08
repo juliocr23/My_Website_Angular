@@ -1,0 +1,30 @@
+.footer{
+    background-color:#1a252f;
+    color:white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+  .fa {
+    font-size: 40px;
+  }
+
+  .footer-link{
+    color: #fff;
+  }
+  .footer-link:hover{
+    text-decoration: none;
+    color:#216583;
+  }
