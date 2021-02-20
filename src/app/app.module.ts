@@ -10,6 +10,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { BlogComponent } from './blog/blog.component';
 import { EducationComponent } from './education/education.component';
 import { FooterComponent } from './footer/footer.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     ExperienceComponent,
     BlogComponent,
     EducationComponent,
-    FooterComponent
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
