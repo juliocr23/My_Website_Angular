@@ -1,6 +1,6 @@
 export class ProjectModel {
     title:string = "";
-    imgFile:string ="";
+    imgFile:string[] =[];
     description:string="";
 
 

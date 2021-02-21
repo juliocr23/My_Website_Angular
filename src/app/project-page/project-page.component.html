@@ -1,25 +1,27 @@
-<div class="project container">
+<div class="project ">
    
   <h2 class="title">Projects.</h2>
 
-  <div class="row"  *ngFor="let project of projectModelArray; index as i">
+  <div class="content container"> 
+    <div class="row"  *ngFor="let project of projectModelArray; index as i">
 
-    <div *ngIf="(i+1)%2==0; then right else left"></div>
+        <div *ngIf="(i+1)%2==0; then right else left"></div>
 
-    <ng-template #left class="col-6"> 
+        <ng-template #left class="col-6"> 
 
-        <div class="col-6">
-            <app-project [projectModel]="project"></app-project>
-        </div> 
-    </ng-template>
+            <div class="col-6">
+                <app-project [projectModel]="project"></app-project>
+            </div> 
+        </ng-template>
 
-    <ng-template #right> 
-        <div class="col-6">Hello World!</div>
-        <div class="col-6">
-            <app-project [projectModel]="project"></app-project>
-        </div> 
-    </ng-template>
-  </div>
+        <ng-template #right> 
+            <div class="col-6"></div>
+            <div class="col-6">
+                <app-project [projectModel]="project"></app-project>
+            </div> 
+        </ng-template>
+    </div>
+</div>
 </div>
 
 
