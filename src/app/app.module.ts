@@ -11,6 +11,8 @@ import { BlogComponent } from './blog/blog.component';
 import { EducationComponent } from './education/education.component';
 import { FooterComponent } from './footer/footer.component';
 import { CopyrightComponent } from './copyright/copyright.component';
+import { ProjectComponent } from './project/project.component';
+import { ProjectPageComponent } from './project-page/project-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CopyrightComponent } from './copyright/copyright.component';
     BlogComponent,
     EducationComponent,
     FooterComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    ProjectComponent,
+    ProjectPageComponent
   ],
   imports: [
     BrowserModule,
