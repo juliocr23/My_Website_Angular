@@ -27,7 +27,11 @@
       </a>
 
     </div>
-    <button type="button" class="btn btn-dark title-btn">{{projectModel.title}}</button>
+    <button (click)="onOpen(projectModel.link)"
+             type="button"
+              class="btn btn-dark title-btn">
+            {{projectModel.title}}
+  </button>
    
     <p class="description">{{projectModel.description}}</p>
 </div>
