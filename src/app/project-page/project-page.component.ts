@@ -10,7 +10,7 @@ export class ProjectPageComponent implements OnInit {
   projectModelArray:ProjectModel[] = [
     new ProjectModel({
       title:"Alien Invasion",
-      imgFile:["../../assets/images/AlienInvasion.gif"],
+      imgFileArray:["../../assets/images/AlienInvasion.gif"],
       description: "  A desktop platform video game in 2D, entirely in Java from scratch. Integrated popular techniques such as Double Buffering and page Flipping to render on the screen."+
       "Used concepts like animation, collision, parallel scrolling, AI, and gravity for an overall good user experience.",
       link:"https://github.com/juliocr23/AlienInvasio"
@@ -18,7 +18,7 @@ export class ProjectPageComponent implements OnInit {
 
     new ProjectModel({
       title:"Password Wallet",
-      imgFile:["../../assets/images/passwordpocket/PasswordPocketLogin.png", 
+      imgFileArray:["../../assets/images/passwordpocket/PasswordPocketLogin.png", 
               "../../assets/images/passwordpocket/PasswordPocketMain.png",
               "../../assets/images/passwordpocket/PasswordPocketCategories.png",
               "../../assets/images/passwordpocket/PasswordPocketPopup.png",
@@ -31,7 +31,7 @@ export class ProjectPageComponent implements OnInit {
     }),
     new ProjectModel({
       title:"Crypto Tracker",
-      imgFile:["../../assets/images/crypto tracker.png"],
+      imgFileArray:["../../assets/images/crypto tracker.png"],
       description:"This application uses SwiftJSON, Alamofire, and CryptoCompare API to provide "+ 
       "real time  data on cryptocurrencies. Additionally, it uses the Charts API to illustrate data to users " + 
       "hourly, daily, weekly, monthly, yearly, and all time.",

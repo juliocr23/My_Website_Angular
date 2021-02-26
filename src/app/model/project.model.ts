@@ -1,6 +1,6 @@
 export class ProjectModel {
     title:string = "";
-    imgFile:string[] =[];
+    imgFileArray:string[] =[];
     description:string="";
     link:string="";
 
