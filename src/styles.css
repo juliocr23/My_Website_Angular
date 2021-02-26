@@ -4,6 +4,42 @@
     src: url("./assets/fonts/Sacramento-Regular.ttf") format("opentype");
   }
 
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url("./assets/fonts/Montserrat/Montserrat-Bold.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: Montserrat-Italic;
+    src: url("./assets/fonts/Montserrat/Montserrat-Italic.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: MerriWeather-Regular;
+    src: url("./assets/fonts/Merriweather/Merriweather-Regular.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: MerriWeather-Italic;
+    src: url("./assets/fonts/Merriweather/Merriweather-Italic.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: MerriWeather-Bold;
+    src: url("./assets/fonts/Merriweather/Merriweather-Bold.ttf") format("opentype");
+  }
+
+
+
+
+
+
+
   body{
     background-color:whitesmoke;
   }

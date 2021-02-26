@@ -2,3 +2,15 @@
     height: auto;
     width: 100%;
 }
+
+.title-btn{
+    font-family:  MerriWeather-Bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+}
+
+.description{
+    font-family:  MerriWeather-Regular;
+}
