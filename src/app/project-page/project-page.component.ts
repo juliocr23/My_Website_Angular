@@ -31,7 +31,12 @@ export class ProjectPageComponent implements OnInit {
     }),
     new ProjectModel({
       title:"Crypto Tracker",
-      imgFileArray:["../../assets/images/crypto tracker.png"],
+      imgFileArray:[ "../../assets/images/cryptotracker/cryptotrackerList.png",
+      "../../assets/images/cryptotracker/cryptotrackerGraph.png",
+      "../../assets/images/cryptotracker/cryptotrackerNews.png",
+      "../../assets/images/cryptotracker/cryptotrackerf+Favorites.png"
+
+    ],
       description:"This application uses SwiftJSON, Alamofire, and CryptoCompare API to provide "+ 
       "real time  data on cryptocurrencies. Additionally, it uses the Charts API to illustrate data to users " + 
       "hourly, daily, weekly, monthly, yearly, and all time.",

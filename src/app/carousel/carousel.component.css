@@ -1,0 +1,22 @@
+
+.btn{
+    height: 100%;
+}
+
+.arrow-icon {
+   font-size: 3vw;
+   color:lightgrey;
+}
+
+.arrow-icon:hover{
+    color: white;
+}
+
+.test{
+  height: 33%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

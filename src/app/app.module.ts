@@ -14,6 +14,11 @@ import { CopyrightComponent } from './copyright/copyright.component';
 import { ProjectComponent } from './project/project.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselComponent } from './carousel/carousel.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import {CarouselModule} from 'primeng/carousel';
+import {ButtonModule} from 'primeng/button';
+
 
 @NgModule({
   declarations: [
@@ -27,12 +32,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     CopyrightComponent,
     ProjectComponent,
-    ProjectPageComponent
+    ProjectPageComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
+    CarouselModule,
+    ButtonModule
+  
+  
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
