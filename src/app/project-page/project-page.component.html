@@ -3,7 +3,7 @@
   <h2 class="title">Projects.</h2>
 
   <div class="content container"> 
-    <div class="row"  *ngFor="let project of projectModelArray; index as i">
+    <div class="row no-gutters"  *ngFor="let project of projectModelArray; index as i">
 
         <div *ngIf="(i+1)%2==0; then right else left"></div>
 

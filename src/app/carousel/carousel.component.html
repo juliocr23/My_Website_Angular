@@ -1,35 +1,43 @@
-<div class="row no-gutters">
+<div class="row no-gutters carousel">
 
     <div class="col-1">
 
-        <div class="btn left-btn col">
-            <div class="row test">
+        <div class="btn left-btn col" (click)="onPrev()">
+            <div class="row no-gutters test" >
             </div>
-            <div class="row test">
+            <div class="row no-gutters test">
                 <div class="col">
                     <i class="fa fa-angle-left arrow-icon" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="row test">
+            <div class="row no-gutters test">
             </div>
         </div>
     </div>
 
+
     <div class="col-10">
-        <div *ngFor="let image of images; index as i">
-            <img [src]="image" *ngIf="i == 0"/>
-        </div>
+
+        <ng-container *ngFor="let image of images; index as i">
+            <img    
+            [src]="image"
+            *ngIf="i==current"
+            @carouselAnimation
+            class="slide"
+            />
+        </ng-container>
+           
     </div>
     <div class="col-1">
-        <div class="btn right-btn col">
-            <div class="row test">
+        <div class="btn right-btn col" (click)="onNext()">
+            <div class="row no-gutters test">
             </div>
-            <div class="row test">
+            <div class="row no-gutters test">
                 <div class="col">
                     <i class="fa fa-angle-right arrow-icon" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="row test">
+            <div class="row no-gutters test">
             </div>
         </div>
     </div>

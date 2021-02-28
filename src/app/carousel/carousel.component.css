@@ -1,22 +1,42 @@
 
+.carousel{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
 .btn{
     height: 100%;
 }
+
+.btn:hover .arrow-icon{
+   font-size: 3vw;
+   color:white;
+}
+
 
 .arrow-icon {
    font-size: 3vw;
    color:lightgrey;
 }
 
-.arrow-icon:hover{
-    color: white;
-}
 
 .test{
   height: 33%;
 }
 
-img{
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-}
+    height: 100%;
+    object-fit:cover;
+
+    transition: transform 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+    border-radius: 0.5em;
+  }
+  
+  .slide:hover {
+    transform: scale(1.1);
+    
+  }

@@ -1,11 +1,6 @@
 <div class="project">
   
   <app-carousel [images]="projectModel.imgFileArray"></app-carousel>
-<!-- 
-<div *ngIf="projectModel.imgFileArray.length == 1">
-  <img [src]="projectModel.imgFileArray[0]" />
-</div> -->
-
 
   <button (click)="onOpen(projectModel.link)"
              type="button"
