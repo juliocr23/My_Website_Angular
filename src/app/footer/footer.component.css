@@ -30,3 +30,12 @@ h2 {
     text-decoration: none;
     color:#216583;
   }
+
+  .title{
+    font-family:Montserrat-Regular;
+    font-size: 2.5rem;
+  }
+
+  .footer-link{
+    font-family: sans-serif;
+  }

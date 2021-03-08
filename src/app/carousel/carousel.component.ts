@@ -25,7 +25,7 @@ export class CarouselComponent implements OnInit {
   imageShowing:string="";
   size:number  = 0;
 
-  loop = setInterval(()=>{                           //<<<---using ()=> syntax
+  loop = setInterval(()=>{                         
     this.goFoward();
   }, 2500);
 

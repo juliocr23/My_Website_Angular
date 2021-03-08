@@ -1,6 +1,6 @@
 <div class="row no-gutters carousel">
 
-    <div class="col-1">
+    <div class="col-1" *ngIf="images.length > 1">
 
         <div class="btn left-btn col" (click)="onPrev()">
             <div class="row no-gutters test" >
@@ -15,9 +15,7 @@
         </div>
     </div>
 
-
-    <div class="col-10">
-
+    <div class="col">
         <ng-container *ngFor="let image of images; index as i">
             <img    
             [src]="image"
@@ -28,7 +26,7 @@
         </ng-container>
            
     </div>
-    <div class="col-1">
+    <div class="col-1" *ngIf="images.length > 1">
         <div class="btn right-btn col" (click)="onNext()">
             <div class="row no-gutters test">
             </div>

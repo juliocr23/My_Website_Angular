@@ -1,7 +1,6 @@
 .copyright{
-  
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     background-color: #348498;
     color: white;
     text-align: center;
@@ -10,4 +9,5 @@
 
 .text{
     margin-bottom: 0;
+   font-family: sans-serif;
 }
