@@ -43,3 +43,7 @@
   body{
     background-color:whitesmoke;
   }
+
+  h1,h2{
+    font-family: Montserrat-Regular;
+  }

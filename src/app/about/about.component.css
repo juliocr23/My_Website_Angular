@@ -29,6 +29,7 @@ padding-top: 5rem;
 
 
 .title {
+    font-family: Montserrat-Regular;
     padding-bottom: 3rem;
     color: #348498;
 }
@@ -36,6 +37,7 @@ padding-top: 5rem;
 .intro {
     width: 40%;
     margin: auto;
+    font-family:MerriWeather-Regular;
 }
 
 .subtitle {
