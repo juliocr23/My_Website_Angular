@@ -18,16 +18,16 @@ export class ProjectPageComponent implements OnInit {
 
     new ProjectModel({
       title:"Password Wallet",
-      imgFileArray:["../../assets/images/passwordpocket/PasswordPocketLogin.png", 
+      imgFileArray:["../../assets/images/passwordpocket/PasswordPocketLogin.png",
               "../../assets/images/passwordpocket/PasswordPocketMain.png",
               "../../assets/images/passwordpocket/PasswordPocketCategories.png",
               "../../assets/images/passwordpocket/PasswordPocketPopup.png",
               "../../assets/images/passwordpocket/PasswordPocketSetting.png",
                ],
-      description:"This application uses Google's firebase\firestore API to store user's accounts." + 
+      description:"This application uses Google's firebase\firestore API to store user's accounts." +
       " It also use Firebase\Auth API to verify users identity using their emails, on top of using end to end encryption to upload data. And not to mention face regconition to log in. ",
 
-      link:"https://github.com/juliocr23/Password-Pocket"
+      link:"https://juliocr23.github.io/PasswordPocket/"
     }),
     new ProjectModel({
       title:"Crypto Tracker",
@@ -37,10 +37,10 @@ export class ProjectPageComponent implements OnInit {
       "../../assets/images/cryptotracker/cryptotrackerf+Favorites.png"
 
     ],
-      description:"This application uses SwiftJSON, Alamofire, and CryptoCompare API to provide "+ 
-      "real time  data on cryptocurrencies. Additionally, it uses the Charts API to illustrate data to users " + 
+      description:"This application uses SwiftJSON, Alamofire, and CryptoCompare API to provide "+
+      "real time  data on cryptocurrencies. Additionally, it uses the Charts API to illustrate data to users " +
       "hourly, daily, weekly, monthly, yearly, and all time.",
-      link:"https://github.com/juliocr23/Cryptocurrencies"
+      link:"http://juliocr23.github.io/CryptocurrenciesWeb/"
     })
   ];
   constructor() { }
