@@ -11,9 +11,15 @@ export class ProjectPageComponent implements OnInit {
     new ProjectModel({
       title:"Alien Invasion",
       imgFileArray:["../../assets/images/AlienInvasion.gif"],
-      description: "  A desktop platform video game in 2D, entirely in Java from scratch. Integrated popular techniques such as Double Buffering and page Flipping to render on the screen."+
-      "Used concepts like animation, collision, parallel scrolling, AI, and gravity for an overall good user experience.",
+      description: "  A scroller  video game, created using Java.  Base on a kid trying to save the world from an alien invasion.",
       link:"https://github.com/juliocr23/AlienInvasio"
+    }),
+
+    new ProjectModel({
+      title:"Zero Fighter",
+      imgFileArray:["../../assets/images/jmpShowCase.gif"],
+      description: "  A desktop video game in 2D, created using Java from scratch. The type of game you would play on a retro console.",
+      link:"https://github.com/juliocr23/JMP"
     }),
 
     new ProjectModel({
@@ -24,8 +30,9 @@ export class ProjectPageComponent implements OnInit {
               "../../assets/images/passwordpocket/PasswordPocketPopup.png",
               "../../assets/images/passwordpocket/PasswordPocketSetting.png",
                ],
-      description:"This application uses Google's firebase\firestore API to store user's accounts." +
-      " It also use Firebase\Auth API to verify users identity using their emails, on top of using end to end encryption to upload data. And not to mention face regconition to log in. ",
+      description:"An iOS app that allows users to save their passwords. " +
+                  "This application uses Google's firebase and end to end encryption to secure user's data. " +
+                  "on top of face regconition for log in. ",
 
       link:"https://juliocr23.github.io/PasswordPocket/"
     }),
@@ -37,9 +44,8 @@ export class ProjectPageComponent implements OnInit {
       "../../assets/images/cryptotracker/cryptotrackerf+Favorites.png"
 
     ],
-      description:"This application uses SwiftJSON, Alamofire, and CryptoCompare API to provide "+
-      "real time  data on cryptocurrencies. Additionally, it uses the Charts API to illustrate data to users " +
-      "hourly, daily, weekly, monthly, yearly, and all time.",
+      description:"An iOS app that allow users to track their favorite cryptocurrencies on real time. It uses APIs like "
+      + "SwiftJSON, Alamofire, and Charts API. ",
       link:"http://juliocr23.github.io/CryptocurrenciesWeb/"
     })
   ];
