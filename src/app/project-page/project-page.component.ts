@@ -44,7 +44,7 @@ export class ProjectPageComponent implements OnInit {
       "../../assets/images/cryptotracker/cryptotrackerf+Favorites.png"
 
     ],
-      description:"An iOS app that allow users to track their favorite cryptocurrencies on real time. It uses APIs like "
+      description:"An iOS app that allow users to track their favorite cryptocurrencies in real time. It uses APIs like "
       + "SwiftJSON, Alamofire, and Charts API. ",
       link:"http://juliocr23.github.io/CryptocurrenciesWeb/"
     })
