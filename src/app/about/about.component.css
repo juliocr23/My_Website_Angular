@@ -1,11 +1,11 @@
 .about-me {
 text-align: center;
-padding-top: 5rem;
+padding-top: 8rem;
 
 }
 
 .about-me-cont {
-    background-color: whitesmoke;
+    background-color: #66BFBF;
 }
 
 .profile-img {
@@ -19,29 +19,36 @@ padding-top: 5rem;
     font-size: 5.625rem;
     font-family: "sacramento", cursive;
     font-weight: bold;
-    color: #006d77;
+    color: #fff;
     padding-bottom: 1rem;
 }
 
 .pro {
     text-decoration: underline;
+
 }
 
 
 .title {
     font-family: Montserrat-Regular;
     padding-bottom: 3rem;
-    color: #348498;
+    color: #fff;
+}
+
+.about {
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 .intro {
     width: 40%;
     margin: auto;
     font-family:MerriWeather-Regular;
+    color: #f1faee;
 }
 
 .subtitle {
-    color: #348498;
+    color: #fff;
 }
 
 .education,experience {
