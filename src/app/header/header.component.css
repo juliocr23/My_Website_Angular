@@ -1,0 +1,36 @@
+
+.header-body {
+  background-color: #999997;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+.profile-img {
+  margin-bottom: 50px;
+  width: 35rem;
+  background-color: #838193d2;
+}
+
+.my-name {
+  line-height: 1.5;
+  font-size: 6.625rem;
+  font-family: "sacramento", cursive;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-family: Montserrat-Regular;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+

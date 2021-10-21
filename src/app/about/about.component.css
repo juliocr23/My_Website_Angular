@@ -1,58 +1,29 @@
-.about-me {
+.aboutme-body  {
 text-align: center;
-padding-top: 8rem;
 
 }
 
-.about-me-cont {
-    background-color: #66BFBF;
-}
-
-.profile-img {
-    border-radius: 50%;
-    margin-bottom: 50px;
-    width: 15rem;
-}
-
-.my-name {
-    line-height: 2;
-    font-size: 5.625rem;
-    font-family: "sacramento", cursive;
-    font-weight: bold;
-    color: #fff;
-    padding-bottom: 1rem;
-}
-
-.pro {
-    text-decoration: underline;
-
-}
-
-
-.title {
-    font-family: Montserrat-Regular;
-    padding-bottom: 3rem;
-    color: #fff;
-}
-
-.about {
- padding-top: 20px;
- padding-bottom: 20px;
-}
-
-.intro {
-    width: 40%;
-    margin: auto;
-    font-family:MerriWeather-Regular;
-    color: #f1faee;
+.background-img {
+   width:100%;
+   position: absolute;
+   right: 0;
 }
 
 .subtitle {
-    color: #fff;
+    color: #c7c7c7;
+    font-size: 3rem;
+    font-family: "sacramento", cursive;
+    font-weight: bold;
 }
 
-.education,experience {
-    margin-top: 5rem;
+.eduexperience {
+  background-color: #454647;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.education, experience {
+   padding-top: 5rem;
     margin-bottom: 5rem;
 }
 

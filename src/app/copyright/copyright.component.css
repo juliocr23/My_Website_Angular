@@ -1,10 +1,12 @@
 .copyright{
     padding-top: 2rem;
     padding-bottom: 1rem;
-    background-color: #348498;
+    background-color: #999997;
     color: white;
     text-align: center;
     font-size: 75%;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .text{

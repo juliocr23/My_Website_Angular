@@ -19,6 +19,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {CarouselModule} from 'primeng/carousel';
 import {ButtonModule} from 'primeng/button';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { HeaderComponent } from './header/header.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { NotfoundComponent } from './notfound/notfound.component';
     ProjectComponent,
     ProjectPageComponent,
     CarouselComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    HeaderComponent,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,

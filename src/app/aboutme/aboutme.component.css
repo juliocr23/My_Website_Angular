@@ -1,0 +1,43 @@
+.about-body{
+  background-color: #e8e6e6;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 4rem;
+}
+
+.about {
+  padding-top: 7rem;
+ }
+
+ .title {
+  font-size: 90px;
+  color: #454647;
+
+  font-weight: bold;
+ }
+
+ .img {
+   width: 35rem;
+   height: 35rem;
+ }
+
+ .intro {
+  width: 70%;
+  line-height: 2;
+  margin: auto;
+  font-family:MerriWeather-Regular;
+  color: #454647;
+}
+
+.subtitle {
+  color: #141414;
+  font-size: 3rem;
+  font-family: "sacramento", cursive;
+  font-weight: bold;
+
+}
+
+hr {
+  width:12rem;
+  margin:0 auto;
+}

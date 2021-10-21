@@ -1,9 +1,11 @@
 .project {
     text-align: center;
-    background-color: #66BFBF;
+    background-color: #999997;
     color: white;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .title {

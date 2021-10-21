@@ -1,45 +1,27 @@
 
-<!--
-TODO: Cut down description about you
-      Find font for paragraphs, titles and sub-titles.
- -->
+<div class="aboutme-body ">
+    <app-header></app-header>
+    <app-aboutme></app-aboutme>
 
-
-<div class="about-me-cont container">
-<div class="about-me">
-
-    <img src="../../assets/images/profileImg.png" class="profile-img" alt="profile-img">
-    <h1 class="my-name">I'm Julio.</h1>
-
-    <div class="heading">
-        <h2 class="title" >A <span class="pro">pro</span>grammer</h2>
-    </div>
-
-    <div class="about">
-      <!-- <h2 class="subtitle">About me.</h2> -->
-      <!-- <hr class="mb-5"/> -->
-      <p class="intro">{{intro}}</p>
-    </div>
-
-    <div class="education">
-      <h2 class="subtitle">Education</h2>
-      <hr class="mb-5"/>
-      <div  *ngFor="let education of educationArray">
-            <app-education [education]="education"></app-education>
-            <br/>
-            <br/>
-
+    <div class="eduexperience ">
+      <div class="education container">
+        <h2 class="subtitle">Education</h2>
+        <hr class="mb-5"/>
+        <div  *ngFor="let education of educationArray">
+              <app-education [education]="education"></app-education>
+              <br/>
+              <br/>
+        </div>
       </div>
-    </div>
 
-    <div class="experience">
-      <h2 class="subtitle ">Experience</h2>
-      <hr class="mb-5"/>
-      <div  *ngFor="let experience of experienceArray">
-        <app-experience [experience]="experience"></app-experience>
-        <br/>
-        <br/>
+      <div class="experience container">
+        <h2 class="subtitle ">Experience</h2>
+        <hr class="mb-5"/>
+        <div  *ngFor="let experience of experienceArray">
+          <app-experience [experience]="experience"></app-experience>
+          <br/>
+          <br/>
+        </div>
       </div>
     </div>
   </div>
-</div>
