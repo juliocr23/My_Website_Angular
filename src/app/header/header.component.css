@@ -9,8 +9,9 @@
 }
 .profile-img {
   margin-bottom: 50px;
-  width: 35rem;
+  width: 597px;
   background-color: #838193d2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .my-name {
@@ -34,3 +35,174 @@
 }
 
 
+@media all and (max-width: 1199px) {
+
+  .profile-img {
+    width: 500px;
+  }
+
+  .my-name {
+    font-size: 5rem;
+  }
+
+}
+
+@media all and (max-width: 992px) {
+
+  .profile-img {
+    width: 400px;
+  }
+
+  .my-name {
+    font-size: 3.8rem;
+  }
+
+  .title{
+    font-size: 1.8rem;
+  }
+
+}
+
+@media all and (max-width: 984px) {
+
+  .profile-img {
+    width: 350px;
+  }
+
+  .my-name {
+    font-size: 3.5rem;
+  }
+  .title{
+    font-size: 1.7rem;
+  }
+}
+
+
+@media all and (max-width: 796px) {
+
+  .profile-img {
+    width: 280px;
+  }
+
+  .my-name {
+    font-size: 3.3rem;
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .profile-img {
+    width: 250px;
+  }
+
+  .my-name {
+    font-size: 2.5rem;
+  }
+
+  .title{
+    font-size: 1rem;
+  }
+
+}
+
+
+@media all and (max-width: 634px) {
+
+  .profile-img {
+    width: 250px;
+  }
+
+  .my-name {
+    font-size: 2.2rem;
+  }
+
+  .title{
+    font-size: 1rem;
+  }
+
+}
+
+@media all and (max-width: 593px) {
+
+  .profile-img {
+    width: 200px;
+  }
+
+  .my-name {
+    font-size: 2rem;
+  }
+
+  .title{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media all and (max-width: 567px) {
+
+  .profile-img {
+    width: 180px;
+  }
+
+  .my-name {
+    font-size: 1.5rem;
+  }
+
+  .title{
+    font-size: 0.7rem;
+  }
+
+}
+
+@media all and (max-width: 498px) {
+
+  .profile-img {
+    width: 170px;
+  }
+
+  .my-name {
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 0.4rem;
+  }
+
+}
+
+
+@media all and (max-width: 430px) {
+
+  .profile-img {
+    width: 120px;
+  }
+
+  .my-name {
+    font-size: .86rem;
+  }
+
+  .title{
+    font-size: 0.4rem;
+  }
+
+}
+
+@media all and (max-width: 375px) {
+
+  .profile-img {
+    width: 100px;
+  }
+
+  .my-name {
+    font-size: .5rem;
+  }
+
+  .title{
+    font-size: 0.28rem;
+  }
+
+}
