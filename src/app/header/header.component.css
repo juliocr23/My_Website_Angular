@@ -5,7 +5,6 @@
   padding-bottom: 4rem;
   margin-left: 3rem;
   margin-right: 3rem;
-
 }
 .profile-img {
   margin-bottom: 50px;
@@ -175,34 +174,19 @@
 }
 
 
+
 @media all and (max-width: 430px) {
-
-  .profile-img {
-    width: 120px;
-  }
-
-  .my-name {
-    font-size: .86rem;
-  }
-
-  .title{
-    font-size: 0.4rem;
-  }
-
-}
-
-@media all and (max-width: 375px) {
 
   .profile-img {
     width: 100px;
   }
 
   .my-name {
-    font-size: .5rem;
+    font-size: 1.2rem;
   }
 
   .title{
-    font-size: 0.28rem;
+    font-size: 0.4rem;
   }
 
 }

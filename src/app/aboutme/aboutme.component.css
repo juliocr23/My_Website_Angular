@@ -2,7 +2,7 @@
   background-color: #e8e6e6;
   margin-left: 3rem;
   margin-right: 3rem;
-  padding-bottom: 4rem;
+  padding-bottom: 8rem;
 }
 
 .about {
@@ -41,3 +41,46 @@ hr {
   width:12rem;
   margin:0 auto;
 }
+
+
+
+@media all and (max-width: 1199px) {
+
+  .title {
+    font-size: 65px;
+
+   }
+}
+
+@media all and (max-width: 900px) {
+
+  .title {
+    font-size: 55px;
+
+   }
+
+   .img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+
+  .title {
+    font-size: 25px;
+
+   }
+
+   .intro {
+    font-size: 12px;
+   }
+
+   .img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+
+}
+

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-aboutme',
@@ -11,9 +11,22 @@ export class AboutmeComponent implements OnInit {
   "so much that I wanted to make my own video games. " +
   "So, I pursued programming. And as I got more involve, I realized that " +
   "programming is like magic, anything is possible!";
-  constructor() { }
+
+  screenHeight: number;
+  screenWidth: number;
+
+  constructor() {
+    this.getScreenSize();
+  }
 
   ngOnInit(): void {
+  }
+
+  @HostListener('window:resize', ['$event'])
+  getScreenSize(event?) {
+        this.screenHeight = window.innerHeight;
+        this.screenWidth = window.innerWidth;
+        console.log(this.screenHeight, this.screenWidth);
   }
 
 }

@@ -36,3 +36,11 @@ hr {
 .experience {
     padding-bottom: 8rem;
 }
+
+@media all and (max-width: 430px) {
+
+
+  .aboutme-body {
+    font-size: 12px;
+  }
+}
